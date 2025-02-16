@@ -92,8 +92,11 @@ h2{
   flex-direction: column;
 }
 
-@media (min-width:320px)  {
+@media (max-width:800px)  {
   .options {
     flex-direction: column;
+  }
+  button {
+    margin-bottom: 2rem;
   }
 }
