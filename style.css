@@ -68,7 +68,6 @@ button {
 }
 
 button:hover {
-  /* background: linear-gradient(135deg, #0099cc, #00ffff); */
   box-shadow: 0px 0px 12px rgba(0, 255, 255, 0.8);
 }
 
@@ -95,16 +94,21 @@ h2{
   background: rgba(25, 25, 25, 0.6);
   border-radius: 2rem;
   box-shadow: 0px 0px 15px rgba(0, 255, 255, 0.2);
-  padding: 0 5rem 5rem 5rem;
+  padding: 0 2rem 2rem 2rem;
   display: flex;
   flex-direction: column;
 }
 
-@media (max-width:800px)  {
+@media (max-width:850px)  {
   .options {
     flex-direction: column;
   }
   button {
     margin-bottom: 2rem;
+  }
+  .card {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0;
   }
 }
